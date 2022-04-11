@@ -1,0 +1,27 @@
+* {
+  margin: 0%;
+  background-color: black;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+}
+
+.navbar ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  float: right;
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+#navbar-logo {
+  flex: 1;
+}
