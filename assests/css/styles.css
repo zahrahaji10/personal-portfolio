@@ -1,27 +1,21 @@
 * {
-  margin: 0%;
-  background-color: black;
+  margin: 5px;
+  background-color: rgb(247, 240, 240);
 }
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.nav-link-item {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  float: right;
   margin: 0%;
 }
 
-.navbar ul {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  background-color: black;
-  color: aliceblue;
-  float: right;
-}
-
-.navbar li {
+.nav-link-item {
   list-style-type: none;
-  padding: 10px;
-}
-
-#navbar-logo {
-  flex: 1;
+  padding: 0px;
 }
