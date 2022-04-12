@@ -5,24 +5,19 @@
   padding: 0px;
   font-family: "Poppins", sans-serif;
 }
-
+/* header navbar */
 header {
   padding: 20px;
   text-align: center;
   margin-top: 0px;
 }
 .nav-link-item {
+  padding: 0px 30px;
+  float: right;
+  font-weight: bold;
   font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10%;
 }
 
-.nav-link-item {
-  list-style-type: none;
-  padding: 0px;
-}
 .about-me-container {
   border: 1px solid black;
   margin-top: 0px;
