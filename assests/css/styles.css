@@ -1,23 +1,22 @@
 * {
   background-color: rgb(247, 240, 240);
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
   padding: 20px;
   text-align: center;
+  margin-top: 0px;
 }
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
 .nav-link-item {
+  font-size: 20px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  color: aliceblue;
-  float: right;
-  margin: 1%;
+  padding: 10%;
 }
 
 .nav-link-item {
@@ -26,6 +25,28 @@ body {
 }
 .about-me-container {
   border: 1px solid black;
+  margin-top: 0px;
+  width: 100%;
+  padding: 0px 0px;
+}
+
+.personal-image {
+  height: auto;
+  width: 470px;
+}
+
+.about-me-info {
+  border: 1px solid rgb(37, 14, 63);
+  width: 550px;
+}
+.p1 {
+  margin-top: 15px;
+}
+.about-me-main {
+  width: 150px;
+  max-width: 95%;
+  display: flex;
+  align-items: flex-end;
 }
 .project-container {
   display: flex;
@@ -38,7 +59,7 @@ body {
 }
 
 .project-image-container {
-  height: 50%;
+  height: 300px;
 }
 
 .project-image {
