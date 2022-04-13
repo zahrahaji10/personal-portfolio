@@ -16,6 +16,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   font-weight: bold;
+  align-items: center;
 }
 
 .logo {
@@ -46,7 +47,7 @@ body {
   flex-direction: row;
   justify-content: center;
   color: #3c2966;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .about-me-container {
@@ -54,23 +55,27 @@ body {
   flex-direction: row;
   column-gap: 120px;
   border-style: solid;
+  color: #3c2966;
   border-radius: 20px;
   margin: 50px;
-  padding: 100px;
+  padding: 50px 300px 50px 240px;
 }
 
 .personal-image {
   height: 550px;
-  width: 350px;
-  border-radius: 100%;
+  width: 550x;
+  border-radius: 50%;
 }
 
-.hi {
-  font-size: 35px;
+.hi,
+.name {
+  font-size: 45px;
   color: #0f0c1d;
+  font-style: italic;
 }
 
 .about-me-info {
+  width: 500px;
 }
 
 .p1 {
