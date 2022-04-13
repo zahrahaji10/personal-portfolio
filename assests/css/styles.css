@@ -1,33 +1,53 @@
 * {
-  background-color: rgb(247, 240, 240);
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: "Poppins", sans-serif;
-}
-/* header navbar */
-header {
-  padding: 20px;
-  text-align: center;
-  margin-top: 0px;
-}
-.nav-link-item {
-  padding: 0px 30px;
-  float: right;
-  font-weight: bold;
-  font-size: 20px;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* header with navbar styling section starts here */
+
+header {
+  background: black;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  background-color: black;
+  margin: 0px 20px;
+}
+.logo {
+  font-size: 45px;
+  color: antiquewhite;
+  margin: 0px 700px 0px 100px;
+}
+.nav-link-item {
+  font-size: 25px;
+  padding-right: 80px;
+  color: aliceblue;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* project cards styling section starts here */
 .about-me-container {
+  display: flex;
+  flex-direction: row;
   border: 1px solid black;
   margin-top: 0px;
   width: 100%;
-  padding: 0px 0px;
 }
 
 .personal-image {
-  height: auto;
-  width: 470px;
+  height: 500px;
+  width: 500px;
 }
 
 .about-me-info {
@@ -38,8 +58,6 @@ header {
   margin-top: 15px;
 }
 .about-me-main {
-  width: 150px;
-  max-width: 95%;
   display: flex;
   align-items: flex-end;
 }
