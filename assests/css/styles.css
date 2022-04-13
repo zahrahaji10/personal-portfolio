@@ -10,7 +10,7 @@ body {
 }
 /* header with navbar styling section starts here */
 
-header {
+.header {
   background-color: #8585d6;
 }
 
@@ -19,9 +19,8 @@ header {
   flex-direction: row;
   align-items: center;
   font-weight: bold;
-  background-color: #8585d6;
-  margin: 0px 20px;
 }
+
 .logo {
   font-size: 45px;
   color: antiquewhite;
@@ -36,32 +35,48 @@ header {
 .nav-link {
   text-decoration: none;
 }
+/* media tool for navbar */
+@media screen and (max-width: 576px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
-/* project cards styling section starts here */
+/* about me styling section starts here */
+
+.main-section-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #3c2966;
+  margin-top: 10px;
+}
+
 .about-me-container {
   display: flex;
   flex-direction: row;
-  border: 1px solid black;
+  border: 1px solid rgb(218, 9, 200);
   margin-top: 10px;
-  width: 100%;
+  column-gap: 120px;
 }
 
 .personal-image {
-  height: 500px;
-  width: 500px;
+  height: 550px;
+  width: 350px;
+  margin-left: 100px;
 }
 
 .about-me-info {
-  border: 1px solid rgb(37, 14, 63);
-  width: 550px;
+  border: 1px solid rgb(179, 155, 207);
+  max-width: 50%;
 }
+
 .p1 {
   margin-top: 15px;
 }
-.about-me-main {
-  display: flex;
-  align-items: flex-end;
-}
+
+/* project styling section starts here */
 .project-container {
   display: flex;
 }
