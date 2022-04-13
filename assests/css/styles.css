@@ -6,11 +6,12 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #eeeefb;
 }
 /* header with navbar styling section starts here */
 
 header {
-  background: black;
+  background-color: #8585d6;
 }
 
 .navbar-container {
@@ -18,7 +19,7 @@ header {
   flex-direction: row;
   align-items: center;
   font-weight: bold;
-  background-color: black;
+  background-color: #8585d6;
   margin: 0px 20px;
 }
 .logo {
@@ -41,7 +42,7 @@ header {
   display: flex;
   flex-direction: row;
   border: 1px solid black;
-  margin-top: 0px;
+  margin-top: 10px;
   width: 100%;
 }
 
