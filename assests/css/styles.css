@@ -10,14 +10,11 @@ body {
 }
 /* header with navbar styling section starts here */
 
-.header {
-  background-color: #8585d6;
-}
-
 .navbar-container {
+  background-color: #8585d6;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: flex-end;
   font-weight: bold;
 }
 
@@ -39,7 +36,6 @@ body {
 @media screen and (max-width: 576px) {
   .navbar-container {
     flex-direction: column;
-    align-items: center;
   }
 }
 
@@ -56,20 +52,25 @@ body {
 .about-me-container {
   display: flex;
   flex-direction: row;
-  border: 1px solid rgb(218, 9, 200);
-  margin-top: 10px;
   column-gap: 120px;
+  border-style: solid;
+  border-radius: 20px;
+  margin: 50px;
+  padding: 100px;
 }
 
 .personal-image {
   height: 550px;
   width: 350px;
-  margin-left: 100px;
+  border-radius: 100%;
+}
+
+.hi {
+  font-size: 35px;
+  color: #0f0c1d;
 }
 
 .about-me-info {
-  border: 1px solid rgb(179, 155, 207);
-  max-width: 50%;
 }
 
 .p1 {
@@ -79,6 +80,8 @@ body {
 /* project styling section starts here */
 .project-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project-card {
@@ -89,6 +92,7 @@ body {
 
 .project-image-container {
   height: 300px;
+  width: 100%;
 }
 
 .project-image {
@@ -96,6 +100,15 @@ body {
   height: 100%;
 }
 .project-info {
-  border: 1px solid rgb(37, 14, 63);
   height: 50%;
+  align-items: center;
+}
+
+.my-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-radius: 20px;
+  margin: 50px;
 }
