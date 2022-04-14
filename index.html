@@ -15,6 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>My Personal Portfolio</title>
   </head>
 
@@ -39,7 +46,7 @@
       </nav>
     </header>
 
-    <main>
+    <main class="main-container">
       <!-- title for about me section -->
       <h1 class="main-section-title">About Me</h1>
       <!-- about me container -->
@@ -84,83 +91,97 @@
 
       <!-- main project section -->
       <section class="project-card-container">
-        <figure class="marketing-project">
-          <img class="project-image" /><a
-            href="https://github.com/zahrahaji10/marketing-agency/tree/dev"
-            ><img
+        <div class="marketing-project">
+          <div class="project-name">Project Name</div>
+          <a href="https://github.com/zahrahaji10/marketing-agency/tree/dev">
+            <img
+              class="marketing-image"
               src="./assests/images/agency-image.jpg"
               alt="image relating to marketing agency"
-          /></a>
-        </figure>
-
-        <!-- flexbox for the other projects -->
+            />
+          </a>
+        </div>
         <section class="other-projects-container">
           <!-- portfolio project -->
-          <figure class="portfolio-project">
-            <img class="project-image" />
+          <div class="portfolio-project">
             <a href="https://github.com/zahrahaji10">
               <img
-                src="./assests/images/portfolio-image.jpg"
+                class="project-image"
+                src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                 alt="image showing the overview of a personal portfolio"
             /></a>
-          </figure>
+          </div>
           <!-- password project -->
-          <figure class="password-project">
-            <img class="project-image" />
+          <div class="password-project">
             <a href="https://github.com/zahrahaji10">
               <img
+                class="project-image"
                 src="./assests/images/password-image.jpg"
                 alt="image of a password"
             /></a>
-          </figure>
+          </div>
           <!-- quiz project -->
-          <figure class="quiz-project">
-            <img class="project-image" />
+          <div class="quiz-project">
             <a href="https://github.com/zahrahaji10">
               <img
+                class="project-image"
                 src="./assests/images/quiz-image.jpg"
                 alt="image of a quiz sign"
             /></a>
-          </figure>
+          </div>
           <!-- planner project -->
-          <figure class="planner-project">
-            <img class="project-image" />
+          <div class="planner-project">
             <a href="https://github.com/zahrahaji10">
               <img
+                class="project-image"
                 src="./assests/images/planner-image.jpg"
                 alt="image showing the overview of a planner"
             /></a>
-          </figure>
+          </div>
           <!-- weather project -->
-          <figure class="weather-project">
-            <img class="project-image" />
+          <div class="weather-project">
             <a href="https://github.com/zahrahaji10">
               <img
+                class="project-image"
                 src="./assests/images/weather-image.jpg"
                 alt="image showing the weather dashboard"
             /></a>
-          </figure>
+          </div>
           <!-- first project -->
-          <figure class="project1-project">
-            <img class="project-image" />
+          <div class="project1-project">
             <a href="https://github.com/zahrahaji10">
               <img
+                class="project-image"
                 src="./assests/images/project-image.jpg"
                 alt="image showing the overview of a people working on a project"
             /></a>
-          </figure>
+          </div>
         </section>
+
+        <!-- flexbox for the other projects -->
       </section>
 
       <!-- CONTACT ME SECTION -->
-      <section id="contact-me">
-        <h1>Contact Me</h1>
-        <div>
-          <p>
-            <!-- add info about me here -->
-          </p>
-        </div>
-      </section>
     </main>
+    <footer id="contact-me">
+      <h1>Contact Me</h1>
+      <div>
+        <p>
+          <!-- add info about me here -->
+        </p>
+        <div class="socials-container">
+          <div class="social-links">
+            <i class="fa-brands fa-linkedin"></i> @Sahra
+          </div>
+          <div class="social-links">
+            <i class="fa-brands fa-twitter"></i> @Sahra
+          </div>
+          <div class="social-links">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:test@test.com">sahraDev@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
