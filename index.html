@@ -42,14 +42,17 @@
     <main>
       <!-- title for about me section -->
       <h1 class="main-section-title">About Me</h1>
+      <!-- about me container -->
       <section class="about-me-container" id="about-me">
         <div class="about-me-main">
+          <!-- profile image -->
           <img
             class="personal-image"
             src="./assests/images/personal-image.jpeg"
             alt="Image of me"
           />
         </div>
+        <!-- about me information -->
         <div class="about-me-info">
           <h2 class="hi">Hi there!</h2>
           <h3 class="name">I'm Zahra Haji,</h3>
@@ -76,26 +79,77 @@
         </div>
       </section>
 
-      <!-- PROJECT SECTION -->
-      <section id="my-projects" class="my-projects">
-        <h1>My Projects</h1>
-        <!-- div container for first project card -->
-        <div class="project-container">
-          <div class="project-image-container">
-            <img
-              class="project-image"
-              src="./assests/images/marketing-agency-image.jpeg"
+      <!-- title for project section -->
+      <h1 id="my-projects" class="my-project-title">My Projects</h1>
+
+      <!-- main project section -->
+      <section class="project-card-container">
+        <figure class="marketing-project">
+          <img class="marketing-image" /><a
+            href="https://github.com/zahrahaji10/marketing-agency/tree/dev"
+            ><img
+              src="./assests/images/agency-image.jpg"
               alt="image relating to marketing agency"
-            />
-          </div>
-          <div class="project-info">
-            <h2>title</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            </p>
-            <a href="">link</a>
-          </div>
-        </div>
+          /></a>
+        </figure>
+
+        <!-- flexbox for the other projects -->
+        <section class="other-projects-container">
+          <!-- portfolio project -->
+          <figure class="portfolio-project">
+            <img class="marketing-image" />
+            <a href="https://github.com/zahrahaji10">
+              <img
+                src="./assests/images/portfolio-image.jpg"
+                alt="image showing the overview of a personal portfolio"
+            /></a>
+          </figure>
+          <!-- password project -->
+          <figure class="password-project">
+            <img class="password-image" />
+            <a href="https://github.com/zahrahaji10">
+              <img
+                src="./assests/images/password-image.jpg"
+                alt="image of a password"
+            /></a>
+          </figure>
+          <!-- quiz project -->
+          <figure class="quiz-project">
+            <img class="quix-image" />
+            <a href="https://github.com/zahrahaji10">
+              <img
+                src="./assests/images/quiz-image.jpg"
+                alt="image of a quiz sign"
+            /></a>
+          </figure>
+          <!-- planner project -->
+          <figure class="planner-project">
+            <img class="project-image" />
+            <a href="https://github.com/zahrahaji10">
+              <img
+                src="./assests/images/planner-image.jpg"
+                alt="image showing the overview of a planner"
+            /></a>
+          </figure>
+          <!-- weather project -->
+          <figure class="weather-project">
+            <img class="weather-image" />
+            <a href="https://github.com/zahrahaji10">
+              <img
+                src="./assests/images/weather-image.jpg"
+                alt="image showing the weather dashboard"
+            /></a>
+          </figure>
+          <!-- first project -->
+          <figure class="project1-project">
+            <img class="first-project" />
+            <a href="https://github.com/zahrahaji10">
+              <img
+                src="./assests/images/project-image.jpg"
+                alt="image showing the overview of a people working on a project"
+            /></a>
+          </figure>
+        </section>
       </section>
 
       <!-- CONTACT ME SECTION -->
