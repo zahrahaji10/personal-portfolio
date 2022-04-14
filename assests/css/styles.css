@@ -112,3 +112,14 @@ body {
   height: 100%;
   object-fit: contain;
 }
+
+/* other projects section styling */
+
+.other-projects-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-image {
+  width: 300px;
+}
