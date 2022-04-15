@@ -34,7 +34,7 @@ header {
 .logo {
   font-size: 45px;
   color: antiquewhite;
-  margin: 0px 700px 0px 100px;
+  margin: 0px 1300px 0px 100px;
 }
 .nav-link-item {
   font-size: 25px;
@@ -162,22 +162,13 @@ header {
 }
 
 .project-name {
-  width: 100%;
-  position: absolute;
-  z-index: 99999;
-  height: 100%;
-  display: flex;
-  opacity: 0;
-  justify-content: center;
   align-items: center;
+  position: absolute;
+  z-index: 1;
   font-size: 40px;
   transition: 0.2s;
-  color: #adf8ff;
+  color: #360568;
   font-weight: bolder;
-}
-
-.project-name:hover {
-  opacity: 1;
 }
 
 /* contact me section */
