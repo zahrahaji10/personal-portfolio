@@ -56,6 +56,14 @@ header {
   margin-top: 40px;
 }
 
+.section-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  margin: 30px;
+}
+
 /* ADD MEDIA TOOL*/
 .about-me-container {
   display: flex;
@@ -171,11 +179,6 @@ header {
 
 /* contact me section */
 
-#contact-me h1 {
-  text-align: center;
-  margin: 40px;
-}
-
 /* ADD MEDIA TOOL */
 .social-links-container {
   display: flex;
@@ -224,5 +227,16 @@ header {
   .about-me-title {
     text-align: center;
     margin-top: 10px;
+  }
+  /* project section  */
+
+  .project-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* contact me section */
+  .social-links {
+    padding: 10px 0px 10px 0px;
   }
 }
