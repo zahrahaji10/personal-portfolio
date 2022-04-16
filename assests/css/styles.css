@@ -45,12 +45,6 @@ header {
 .nav-link {
   text-decoration: none;
 }
-/* media tool for navbar */
-@media screen and (max-width: 576px) {
-  .navbar-container {
-    flex-direction: column;
-  }
-}
 
 /* about me styling section starts here */
 
@@ -80,8 +74,7 @@ header {
   border-radius: 20%;
 }
 
-.hi,
-.name {
+.comment {
   font-style: italic;
   font-weight: 300px;
   font-size: 40px;
@@ -196,4 +189,39 @@ header {
 
 .social-links > i {
   color: black;
+}
+
+@media screen and (max-width: 576px) {
+  /* navbar section  */
+
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-link-item,
+  .logo {
+    padding: 5px;
+    align-items: center;
+    margin: 0px;
+  }
+
+  /* about me section */
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px;
+    padding: 0px;
+  }
+
+  .about-me-info {
+    display: flex;
+    flex-direction: column;
+    align-content: centre;
+  }
+
+  .comment {
+    align-content: center;
+  }
 }
