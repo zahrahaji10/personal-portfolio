@@ -28,21 +28,23 @@
   <body>
     <!-- header containing navbar -->
     <header>
-      <nav class="navbar-container">
+      <nav class="navbar-container main-container">
         <!-- nav logo -->
         <div class="logo">My Portfolio</div>
         <!-- about me nav-links with an anchor tag-->
-        <div class="nav-link-item">
-          <a class="nav-link" href="#about-me">About</a>
-        </div>
-        <!-- my project nav-links with an anchor tag-->
-        <div class="nav-link-item">
-          <a class="nav-link" href="#my-projects">Projects</a>
-        </div>
-        <!-- contact me nav-links with an anchor tag-->
-        <div class="nav-link-item">
-          <a class="nav-link" href="#contact-me">Contact</a>
-        </div>
+        <div class="nav">
+          <div class="nav-link-item">
+            <a class="nav-link" href="#about-me">About</a>
+          </div>
+          <!-- my project nav-links with an anchor tag-->
+          <div class="nav-link-item">
+            <a class="nav-link" href="#my-projects">Projects</a>
+          </div>
+          <!-- contact me nav-links with an anchor tag-->
+          <div class="nav-link-item">
+            <a class="nav-link" href="#contact-me">Contact</a>
+          </div>
+        </div> 
       </nav>
     </header>
 
@@ -52,40 +54,43 @@
 
       <!-- about me container -->
       <section class="about-me-container" id="about-me">
-        <figure class="my-image">
           <!-- profile image -->
+        <div class="about-me-inner-container">
+          <div class="main-image-container"> 
             <img
             class="personal-image"
             src="./assests/images/personal-image.jpeg"
             alt="Image of me"
-          /></figure>
-           <!-- about me information -->
-        <div class="about-me-info">
-         <div class="about-me-title">
-          <h2 class="comment">Hi there!</h2>
-          <h3 class="comment">I'm Zahra Haji,</h3>
-         </div> 
-          <div>
-            <p class="p1">
-              I am an emerging software developer from Birmingham, England. The
-              aspect of creating and designing a website from nothing to
-              something of benefit to others fascinates me. I see myself as a
-              hardworking individual who enjoys the challenge of developing and
-              learning new skills.
-            </p>
-            <p class="p1">
-              My skills include good communication, attention to detail and
-              organised. From the basic concept of an idea to final execution, I
-              am goal oriented and focused to meet service user’s satisfaction.
-            </p>
-            <p class="p1">
-              My hobbies vary from hiking, muay thai and baking. I love playing
-              sports such as badminton and tennis on my spare time. I am
-              trilingual; fluent in Arabic, Somali and English and soon to
-              hopefully add JavaScript and many more.
-            </p>
+          />
           </div>
-        </div>>
+             <!-- about me information -->
+          <div class="about-me-info">
+           <div class="about-me-title">
+            <h2 class="comment">Hi there!</h2>
+            <h3 class="comment">I'm Zahra Haji,</h3>
+           </div> 
+            <div>
+              <p class="p1">
+                I am an emerging software developer from Birmingham, England. The
+                aspect of creating and designing a website from nothing to
+                something of benefit to others fascinates me. I see myself as a
+                hardworking individual who enjoys the challenge of developing and
+                learning new skills.
+              </p>
+              <p class="p1">
+                My skills include good communication, attention to detail and
+                organised. From the basic concept of an idea to final execution, I
+                am goal oriented and focused to meet service user’s satisfaction.
+              </p>
+              <p class="p1">
+                My hobbies vary from hiking, muay thai and baking. I love playing
+                sports such as badminton and tennis on my spare time. I am
+                trilingual; fluent in Arabic, Somali and English and soon to
+                hopefully add JavaScript and many more.
+              </p>
+            </div>
+        </div>
+        </div>
       </section>
 
       <!-- title for project section -->
@@ -93,7 +98,7 @@
       <!-- main project section -->
       <section class="project-card-container">
         <div class="marketing-project">
-          <div class="project-name">Marketing Agency Refactor</div>
+          <div class="project-name">Marketing Agency</div>
           <a href="https://github.com/zahrahaji10/marketing-agency/tree/dev">
             <img
               class="marketing-image"

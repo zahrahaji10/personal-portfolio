@@ -4,14 +4,19 @@
   padding: 0px;
 }
 
+a {
+  color: white;
+}
+
+footer a {
+  color: #131338;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: #eeeefb;
 }
 
-/* header with navbar styling section starts here */
-
-/* ADD MEDIA TOOL */
 .main-container {
   margin-left: auto;
   margin-right: auto;
@@ -22,19 +27,27 @@ header {
   background: #8585d6;
 }
 
-/* ADD MEDIA TOOL */
 .navbar-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   font-weight: bold;
   align-items: center;
 }
 
+.navbar-container > div {
+  width: 50%;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .logo {
   font-size: 45px;
-  color: antiquewhite;
-  margin: 0px 1300px 0px 100px;
+  color: #131338;
+  /* margin: 0px 1300px 0px 100px; */
 }
 .nav-link-item {
   font-size: 25px;
@@ -46,44 +59,74 @@ header {
   text-decoration: none;
 }
 
-/* about me styling section starts here */
-
-.main-section-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: black;
-  margin-top: 40px;
-}
+/* title */
 
 .section-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  text-align: center;
   color: black;
   margin: 30px;
 }
 
-/* ADD MEDIA TOOL*/
+/* about me */
+
 .about-me-container {
   display: flex;
-  flex-direction: row;
-  column-gap: 200px;
+  flex-wrap: wrap;
+  padding: 50px 0px;
   border-style: solid;
   color: #ffffff;
   border-radius: 20px;
-  margin: 50px;
-  padding: 50px 150px;
 }
-.personal-image,
 .about-me-info {
-  flex-wrap: nowrap;
+  color: black;
+  padding: 30px;
+}
+
+.about-me-container {
   justify-content: center;
 }
+
+.about-me-inner-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-me-inner-container > * {
+  width: 50%;
+}
+
 .personal-image {
-  height: 550px;
-  width: 400px;
-  border-radius: 20%;
+  border-radius: 80px;
+  width: 280px;
+  height: 450px;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.marketing-project {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marketing-project img {
+  width: 100%;
+}
+
+.other-projects-container {
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.other-projects-container > div {
+  width: calc(50% - 9px);
+  min-width: 300px;
+  height: 500px;
+  overflow: hidden;
 }
 
 .comment {
@@ -93,102 +136,68 @@ header {
   color: #360568;
 }
 
-.about-me-info {
-  width: 100%;
-}
-
 .p1 {
   margin-top: 15px;
   color: black;
 }
 
-/* project styling section starts here */
-
-.my-project-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 40px;
-}
-
-/* ADD MEDIA TOOL */
-.project-card-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px;
-}
-
-.marketing-project {
-  width: 100%;
-  height: 500px;
-  overflow: hidden;
-  position: relative;
-}
-
-.marketing-project img {
-  width: 100%;
-  position: absolute;
-  top: -700px;
-  bottom: -280px;
-}
-
-/* other projects section styling */
-
-/* ADD MEDIA TOOL */
 .other-projects-container {
-  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-image-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  row-gap: 10px;
-  column-gap: 10px;
-  width: 100%;
-}
-
-/* ADD MEDIA TOOL */
-.other-projects-container > div {
-  width: calc(50% - 10px);
-  overflow: hidden;
-  height: 300px;
+  align-items: center;
 }
 
 .other-projects-container > div,
 .marketing-project {
-  transition: all 0.5s;
+  position: relative;
 }
 
-.project-image {
-  width: 100%;
-}
-
-.other-projects-container > div:hover,
-.marketing-project:hover {
-  transform: scale(1.2);
-}
-
-.project-name {
-  align-items: center;
+.other-projects-container > div .project-name,
+.marketing-project > .project-name {
+  text-align: center;
   position: absolute;
-  z-index: 1;
-  font-size: 40px;
-  transition: 0.2s;
-  color: #360568;
-  font-weight: bolder;
+  color: white;
+  background: black;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 41px;
+  right: 0;
+  margin: auto;
+  width: 190px;
 }
 
-/* contact me section */
+.marketing-project {
+  margin-bottom: 10px;
+}
 
-/* ADD MEDIA TOOL */
+.marketing-project:hover,
+.other-projects-container > div:hover {
+  transition: all 0.5s ease-out;
+}
+.marketing-project:hover,
+.other-projects-container > div:hover {
+  box-shadow: 14px -5px 40px #d2d2d2;
+  transform: scale(1.2);
+  z-index: 2;
+}
+
 .social-links-container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 10px;
 }
 
 .social-links {
   border-style: solid;
+  margin-bottom: 10px;
   color: #ffffff;
   border-radius: 20px;
   padding: 20px 50px 20px 50px;
@@ -198,45 +207,56 @@ header {
   color: black;
 }
 
-@media screen and (max-width: 576px) {
-  /* navbar section */
-  .navbar-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .nav-link-item,
-  .logo {
-    padding: 5px;
-    align-items: center;
-    margin: 0px;
-  }
-
-  /* about me section */
+@media only screen and (max-width: 630px) {
   .about-me-container {
-    display: flex;
+    padding: 10px;
+  }
+  .logo {
+    text-align: center;
+  }
+
+  .navbar-container > div {
+    width: 100%;
+  }
+
+  .nav {
     flex-direction: column;
     align-items: center;
-    margin: 0px;
+  }
+
+  .nav-link-item {
+    padding: 0;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .personal-image {
+    object-fit: cover;
+    height: 379px;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 100%;
   }
 
   .about-me-info {
-    width: 400px;
-  }
-
-  .about-me-title {
     text-align: center;
-    margin-top: 10px;
-  }
-  /* project section  */
-
-  .project-card-container {
-    display: flex;
-    flex-direction: column;
   }
 
-  /* contact me section */
-  .social-links {
-    padding: 10px 0px 10px 0px;
+  .other-projects-container > div {
+    width: 100%;
+  }
+
+  .main-image-container {
+    width: 100%;
+  }
+
+  .personal-image {
+    width: 100%;
+  }
+
+  .about-me-info {
+    width: 100%;
   }
 }

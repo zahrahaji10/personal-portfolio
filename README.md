@@ -29,4 +29,4 @@
 
 ## Deployed URL
 
-You can find the application deployed to github pages [here](https://github.com/zahrahaji10)
+You can find the application deployed to github page in this link [here](https://github.com/zahrahaji10)
