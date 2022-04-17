@@ -18,7 +18,8 @@ I am goal-oriented and learn quickly which makes me excited in the prospect of b
 
 ### Mobile View-ports
 
-![mobie-view] (https://user-images.githubusercontent.com/102627226/163710055-f9551374-3cd1-449b-9125-37408e12d0f9.mp4)
+Click on this link below for a quick mobile viewport.
+https://user-images.githubusercontent.com/102627226/163710861-747373f6-0661-4fb5-9644-62fc235d8e0d.mp4
 
 ## Technologies
 

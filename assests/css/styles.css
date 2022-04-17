@@ -23,6 +23,8 @@ body {
   width: 80%;
 }
 
+/* navbar section s */
+
 header {
   background: #8585d6;
 }
@@ -47,7 +49,6 @@ header {
 .logo {
   font-size: 45px;
   color: #131338;
-  /* margin: 0px 1300px 0px 100px; */
 }
 .nav-link-item {
   font-size: 25px;
@@ -67,7 +68,7 @@ header {
   margin: 30px;
 }
 
-/* about me */
+/* about me section*/
 
 .about-me-container {
   display: flex;
@@ -107,28 +108,6 @@ header {
   object-fit: cover;
 }
 
-.marketing-project {
-  height: 400px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.marketing-project img {
-  width: 100%;
-}
-
-.other-projects-container {
-  row-gap: 10px;
-  column-gap: 10px;
-}
-
-.other-projects-container > div {
-  width: calc(50% - 9px);
-  min-width: 300px;
-  height: 500px;
-  overflow: hidden;
-}
-
 .comment {
   font-style: italic;
   font-weight: 300px;
@@ -139,6 +118,31 @@ header {
 .p1 {
   margin-top: 15px;
   color: black;
+}
+
+/* main project section */
+
+.marketing-project {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marketing-project img {
+  width: 100%;
+}
+
+/* 6 upcoming project section */
+.other-projects-container {
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.other-projects-container > div {
+  width: calc(50% - 9px);
+  min-width: 300px;
+  height: 500px;
+  overflow: hidden;
 }
 
 .other-projects-container {
@@ -195,6 +199,7 @@ header {
   padding: 10px;
 }
 
+/* contact me section*/
 .social-links {
   border-style: solid;
   margin-bottom: 10px;
@@ -207,10 +212,10 @@ header {
   color: black;
 }
 
-@media only screen and (max-width: 630px) {
-  .about-me-container {
-    padding: 10px;
-  }
+/* media query */
+
+@media only screen and (max-width: 576px) {
+  /* navbar section */
   .logo {
     text-align: center;
   }
@@ -231,6 +236,13 @@ header {
   .navbar-container {
     flex-direction: column;
   }
+  /* main section */
+
+  .main-image-container {
+    width: 100%;
+  }
+
+  /* about me section */
 
   .personal-image {
     object-fit: cover;
@@ -239,17 +251,11 @@ header {
     overflow: hidden;
     width: 100%;
   }
-
+  .about-me-container {
+    padding: 10px;
+  }
   .about-me-info {
     text-align: center;
-  }
-
-  .other-projects-container > div {
-    width: 100%;
-  }
-
-  .main-image-container {
-    width: 100%;
   }
 
   .personal-image {
@@ -258,5 +264,15 @@ header {
 
   .about-me-info {
     width: 100%;
+  }
+  .other-projects-container > div {
+    width: 100%;
+  }
+
+  /* contact me section */
+  .social-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
