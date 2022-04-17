@@ -346,13 +346,13 @@ header {
 }
 
 .other-projects-container {
-  /* row-gap: 10px; */
-  /* column-gap: 10px; */
   display: flex;
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 576px) {
+/* media query tool for larger devices */
+
+@media only screen and (max-width: 630px) {
   .personal-image {
     object-fit: cover;
     height: 379px;
