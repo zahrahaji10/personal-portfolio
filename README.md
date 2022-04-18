@@ -2,6 +2,10 @@
 
 - Creating a personal portfolio for future employers using HTML and CSS.
 
+## Link to deployed application
+
+https://zahrahaji10.github.io/personal-portfolio/
+
 ## About Me
 
 Hi I am Zahra Haji, currently studying to become an amazing software developer :grin:. I love challenging myself and learning new skills, which made interested in transitioning into this career path. I enjoy the idea of creating a website from nothing to something that is your own creation. I see myself as someone who is calm and patient which helped immensely in creating this portfolio.
@@ -27,7 +31,3 @@ https://user-images.githubusercontent.com/102627226/163710861-747373f6-0661-4fb5
 - FontAwesome
 - Google fonts
 - Coolers
-
-## Deployed URL
-
-You can find the application deployed to github page in this link [CLICK HERE](https://github.com/zahrahaji10)

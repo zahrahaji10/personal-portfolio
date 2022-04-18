@@ -1,6 +1,10 @@
 :root {
   --white: #eeeefb;
   --light-purple: #8585d6;
+  --black: black;
+  --white: #ffffff;
+  --off-white: #d2d2d2;
+  --baby-purple: aliceblue;
 }
 
 * {
@@ -10,7 +14,7 @@
 }
 
 a {
-  color: white;
+  color: var(--white);
 }
 
 footer a {
@@ -59,7 +63,7 @@ header {
 .nav-link-item {
   font-size: 25px;
   padding-right: 80px;
-  color: aliceblue;
+  color: var(--baby-purple);
 }
 
 .nav-link {
@@ -74,7 +78,7 @@ header {
 
 .section-title {
   text-align: center;
-  color: black;
+  color: var(--black);
   margin: 30px;
 }
 
@@ -85,13 +89,13 @@ header {
   flex-wrap: wrap;
   padding: 50px 0px;
   border-style: solid;
-  color: #ffffff;
+  color: var(--white);
   border-radius: 20px;
   justify-content: center;
 }
 
 .about-me-info {
-  color: black;
+  color: var(--black);
   padding: 30px;
 }
 
@@ -125,7 +129,7 @@ header {
 
 .p1 {
   margin-top: 15px;
-  color: black;
+  color: var(--black);
 }
 
 /* main project section */
@@ -173,8 +177,8 @@ header {
 .marketing-project > .project-name {
   text-align: center;
   position: absolute;
-  color: white;
-  background: black;
+  color: var(--white);
+  background: var(--black);
   padding: 10px;
   top: 0;
   left: 0;
@@ -196,7 +200,7 @@ header {
 
 .marketing-project:hover,
 .other-projects-container > div:hover {
-  box-shadow: 14px -5px 40px #d2d2d2;
+  box-shadow: 14px -5px 40px var(--off-white);
   transform: scale(1.2);
   z-index: 2;
 }
@@ -213,13 +217,13 @@ header {
 .social-links {
   border-style: solid;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: var(--white);
   border-radius: 20px;
   padding: 20px 50px;
 }
 
 .social-links > i {
-  color: black;
+  color: var(--black);
 }
 
 /* media query */
