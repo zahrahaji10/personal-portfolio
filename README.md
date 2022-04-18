@@ -1,7 +1,5 @@
 # Personal Portfolio
 
-## DESCRIPTION
-
 - Creating a personal portfolio for future employers using HTML and CSS.
 
 ## About Me
