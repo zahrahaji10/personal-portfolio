@@ -4,7 +4,9 @@
 
 ## Link to deployed application
 
-https://zahrahaji10.github.io/personal-portfolio/
+GitHub repository: https://zahrahaji10.github.io/personal-portfolio/
+
+GitHub url:https://github.com/zahrahaji10/personal-portfolio/tree/dev
 
 ## About Me
 
@@ -21,6 +23,7 @@ I am goal-oriented and learn quickly which makes me excited in the prospect of b
 ### Mobile View-ports
 
 Click on this link below for a quick mobile viewport.
+
 https://user-images.githubusercontent.com/102627226/163710861-747373f6-0661-4fb5-9644-62fc235d8e0d.mp4
 
 ## Technologies
