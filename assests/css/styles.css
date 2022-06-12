@@ -1,3 +1,4 @@
+/* web color theme */
 :root {
   --white: #eeeefb;
   --light-purple: #8585d6;
@@ -7,23 +8,21 @@
   --baby-purple: aliceblue;
 }
 
+/* styling to whole page */
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
-a {
-  color: var(--white);
-}
-
-footer a {
-  color: #131338;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   background: var(--white);
+}
+
+/* navbar styling */
+a {
+  color: var(--white);
 }
 
 .main-container {
@@ -168,6 +167,35 @@ header {
   align-items: center;
 }
 
+/* project cards styling */
+.marketing-project {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marketing-project img {
+  width: 100%;
+}
+
+/* 6 upcoming project section */
+.other-projects-container {
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.other-projects-container > div {
+  width: calc(50% - 9px);
+  min-width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.other-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .other-projects-container > div,
 .marketing-project {
   position: relative;
@@ -203,6 +231,12 @@ header {
   box-shadow: 14px -5px 40px var(--off-white);
   transform: scale(1.2);
   z-index: 2;
+}
+
+/* footer section styling */
+
+footer a {
+  color: #131338;
 }
 
 .social-links-container {
