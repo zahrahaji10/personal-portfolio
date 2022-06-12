@@ -5,7 +5,10 @@
   --black: black;
   --white: #ffffff;
   --off-white: #d2d2d2;
+  --dark-blue: #131338;
   --baby-purple: aliceblue;
+  --dark-purple: #360568;
+  --light: rgba(248, 246, 246, 0.877);
 }
 
 /* styling to whole page */
@@ -31,7 +34,7 @@ a {
   width: 80%;
 }
 
-/* navbar section */
+/* navbar section styling*/
 
 header {
   background: var(--light-purple);
@@ -56,7 +59,7 @@ header {
 
 .logo {
   font-size: 45px;
-  color: #131338;
+  color: var(--dark-blue);
 }
 
 .nav-link-item {
@@ -73,7 +76,7 @@ header {
   text-decoration: underline;
 }
 
-/* title */
+/* title section styling*/
 
 .section-title {
   text-align: center;
@@ -81,7 +84,7 @@ header {
   margin: 30px;
 }
 
-/* about me section*/
+/* about me section styling*/
 
 .about-me-container {
   display: flex;
@@ -123,12 +126,30 @@ header {
   font-style: italic;
   font-weight: 300px;
   font-size: 40px;
-  color: #360568;
+  color: var(--dark-purple);
 }
 
 .p1 {
   margin-top: 15px;
   color: var(--black);
+}
+
+.fa-color {
+  color: var(--black);
+  size: 20px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--light);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 7px;
+}
+
+.link :hover {
+  color: var(--light-purple);
+  transform: rotate(10deg);
 }
 
 /* main project section */
