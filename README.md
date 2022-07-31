@@ -34,3 +34,7 @@ https://user-images.githubusercontent.com/102627226/163710861-747373f6-0661-4fb5
 - FontAwesome
 - Google fonts
 - Coolers
+
+## Contact Me
+- Email: Zahrahhaji10@gmail.com
+- Linkedin: [Click Here](https://www.linkedin.com/in/zahra-haji/)
